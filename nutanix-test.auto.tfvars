@@ -1,1 +1,0 @@
-nutanx_user = admin
