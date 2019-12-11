@@ -1,5 +1,5 @@
 provider "nutanix" {
-  username  = "admin"
+  username  = var.nutanix_user
   password  = "Ch@nd792!"
   endpoint  = "10.0.1.40"
   insecure  = true
