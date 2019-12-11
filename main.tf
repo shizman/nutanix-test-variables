@@ -1,3 +1,8 @@
+  
+variable "nutanix_user" {
+    type = string
+}
+
 provider "nutanix" {
   username  = var.nutanix_user
   password  = "Ch@nd792!"
