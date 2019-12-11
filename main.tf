@@ -3,9 +3,14 @@ variable "nutanix_user" {
     type = string
 }
 
+variable "nutanix_pass" {
+    type = string
+}
+
+
 provider "nutanix" {
   username  = var.nutanix_user
-  password  = "Ch@nd792!"
+  password  = var.nutanix_pass
   endpoint  = "10.0.1.40"
   insecure  = true
   port      = 9440
