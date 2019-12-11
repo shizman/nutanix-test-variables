@@ -1,4 +1,1 @@
-variable "nutanix_user" {
-    type = string
-    default = ["admin"]
-}
+nutanx_user = admin
